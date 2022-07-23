@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout  xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/dene"
+    android:layout_height="match_parent"
+    tools:context=".ArizaKayitOlustur">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/qrcode"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:layout_marginLeft="40dp"
+            android:layout_marginRight="40dp"
+            android:fontFamily="@font/gotham_medium"
+            android:hint="Cihaz Kodu"
+            android:padding="5dp"
+            android:textColor="@color/colorPrimaryDark"
+            app:met_floatingLabel="normal" />
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/arizakodu"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:layout_marginLeft="40dp"
+            android:layout_marginRight="40dp"
+            android:fontFamily="@font/gotham_medium"
+            android:hint="Arıza Kodu"
+            android:padding="5dp"
+            android:maxLength="2"
+            android:inputType="number"
+            android:textColor="@color/colorPrimaryDark"
+            app:met_floatingLabel="normal" />
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:layout_marginLeft="40dp"
+            android:layout_marginRight="40dp"
+            android:layout_centerInParent="true"
+            android:fontFamily="@font/gotham_medium"
+            android:background="@android:drawable/editbox_background"
+            android:drawableRight="@android:drawable/arrow_down_float"
+            android:drawablePadding="16dp"
+            android:hint="Select Language"
+            android:padding="12dp" />
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/aciklama"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_marginLeft="40dp"
+            android:layout_marginRight="40dp"
+            android:fontFamily="@font/gotham_medium"
+            android:hint="Açıklama"
+            android:padding="5dp"
+            android:textColor="@color/colorPrimaryDark"
+            app:met_floatingLabel="normal" />
+
+
+        <Button
+            android:id="@+id/register"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:layout_marginLeft="40dp"
+            android:layout_marginRight="40dp"
+            android:gravity="center"
+            android:background="@color/colorPrimaryDark"
+            android:fontFamily="@font/gotham_medium"
+            android:minHeight="48dp"
+            android:text="Gönder"
+            android:textAllCaps="false"
+            android:textColor="@color/white"
+            tools:ignore="ObsoleteLayoutParam" />
+
+
+    </LinearLayout>
+
+
+
+
+</RelativeLayout>
+

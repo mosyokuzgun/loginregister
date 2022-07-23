@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout  xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/dene"
+    android:layout_height="match_parent"
+    tools:context=".ArizaKayitOlustur">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/qrcode"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:layout_marginLeft="40dp"
+            android:layout_marginRight="40dp"
+            android:fontFamily="@font/gotham_medium"
+            android:hint="Cihaz Kodu"
+            android:padding="5dp"
+            android:textColor="@color/colorPrimaryDark"
+            android:editable="false"
+            app:met_floatingLabel="normal"
+            tools:ignore="Deprecated" />
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/arizakodu"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:layout_marginLeft="40dp"
+            android:layout_marginRight="40dp"
+            android:fontFamily="@font/gotham_medium"
+            android:hint="Arıza Kodu"
+            android:padding="5dp"
+            android:textColor="@color/colorPrimaryDark"
+            app:met_floatingLabel="normal" />
+
+        <TextView
+            android:id="@+id/yapilanislem"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:layout_marginLeft="40dp"
+            android:layout_marginRight="40dp"
+            android:fontFamily="@font/gotham_medium"
+            android:hint="@string/yapilan_islemler"
+            app:met_floatingLabel="normal"
+            android:paddingTop="20dp"
+            android:paddingLeft="5dp"
+            android:textSize="18sp" />
+
+        <com.google.android.material.divider.MaterialDivider
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            app:dividerInsetStart="42dp"
+            app:dividerInsetEnd="42dp"
+            app:dividerColor="@color/black"/>
+
+        <TextView
+            android:id="@+id/kullanilan"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:layout_marginLeft="40dp"
+            android:layout_marginRight="40dp"
+            android:drawablePadding="16dp"
+            android:fontFamily="@font/gotham_medium"
+            android:hint="@string/kullanilan_parcalar"
+            android:paddingTop="26dp"
+            android:paddingLeft="5dp"
+            android:textSize="18sp"
+           />
+        <com.google.android.material.divider.MaterialDivider
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            app:dividerInsetStart="42dp"
+            app:dividerInsetEnd="42dp"
+            app:dividerColor="@color/black"/>
+
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/aciklama"
+            android:layout_width="match_parent"
+            android:layout_height="85dp"
+            android:layout_marginLeft="40dp"
+            android:layout_marginRight="40dp"
+            android:fontFamily="@font/gotham_medium"
+            android:hint="Açıklama"
+            android:padding="5dp"
+            android:textColor="@color/colorPrimaryDark" />
+
+
+
+        <Button
+            android:id="@+id/register"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:layout_marginLeft="40dp"
+            android:layout_marginRight="40dp"
+            android:gravity="center"
+            android:background="@color/colorPrimaryDark"
+            android:fontFamily="@font/gotham_medium"
+            android:minHeight="48dp"
+            android:text="Tamamla"
+            android:textAllCaps="true"
+            android:textColor="@color/white"
+            tools:ignore="ObsoleteLayoutParam" />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+        <Button
+            android:id="@+id/beklet"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_marginLeft="40dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginTop="15dp"
+            android:background="@color/colorPrimaryDark"
+            android:fontFamily="@font/gotham_medium"
+            android:minHeight="48dp"
+            android:text="Beklet"
+            android:textAllCaps="true"
+            android:textColor="@color/white"
+            tools:ignore="ObsoleteLayoutParam" />
+
+            <Button
+                android:id="@+id/test"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@color/red"
+                android:fontFamily="@font/gotham_medium"
+                android:gravity="center"
+                android:minHeight="48dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="40dp"
+                android:layout_marginTop="15dp"
+                android:text="Test"
+                android:textAllCaps="true"
+                android:textColor="@color/white"
+                tools:ignore="ObsoleteLayoutParam" />
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+
+
+</RelativeLayout>
+

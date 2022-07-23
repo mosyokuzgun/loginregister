@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">loginregister</string>
+    <string name="prefLoginState"> loginstate </string>
+    <string name="kay_t_ol">Kayıt ol</string>
+    <string name="user">Kullanıcı Adı</string>
+    <string name="pass">Parola</string>
+    <string name="login">GİRİŞ</string>
+    <string name="rem">Beni Hatırla</string>
+    <string name="kayit">Kayit</string>
+    <string name="depo">Depoya Çekme</string>
+    <string name="location_label">Realtime Location</string>
+    <string name="loading">Loading…</string>
+    <string name="latitude">Latitude</string>
+    <string name="longitude">Longitude</string>
+    <string name="novalues">0.0</string>
+    <string name="metagetGPStxt">Get GPS From Device</string>
+    <string name="realtimegetGPStxt">Real Time Location</string>
+    <string name="infotext">Get real time position from deveice and send to a server witnin a 30 seconds interval. Receive acknowledgement from server when position is received</string>
+    <string name="textTitle">bune</string>
+    <string name="kullanilan_parcalar">Kullanılan Parçalar</string>
+    <string name="yapilan_islemler">Yapılan İşlemler</string>
+
+
+</resources>

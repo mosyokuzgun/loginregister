@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.durmusakman.loginregister"
+    tools:ignore="ExtraText">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_BACKGROUND_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <application
+        android:name=".AppController"
+        android:allowBackup="true"
+        android:icon="@mipmap/kumrulog"
+        android:label="tork@kumruscooter"
+        android:roundIcon="@mipmap/kumrulog"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Loginregister"
+        android:usesCleartextTraffic="true"
+        android:fullBackupContent="@xml/backup_descriptor">
+        <activity
+            android:name=".BataryaBirak"
+            android:exported="false" />
+        <activity
+            android:name=".AracaYukle"
+            android:exported="false" />
+        <activity
+            android:name=".BataryaKayitlari"
+            android:exported="false" />
+        <activity
+            android:name=".Arackaydi"
+            android:exported="false" />
+        <activity
+            android:name=".ArizaKayitOlustur"
+            android:exported="false" />
+        <activity
+            android:name=".DepoyaCekme"
+            android:exported="false" />
+        <activity
+            android:name=".ArizaKayit"
+            android:exported="false" />
+        <activity
+            android:name=".TamirTarama"
+            android:exported="false"/>
+        <activity
+            android:name=".TamirIslem"
+            android:exported="false"/>
+        <activity
+        android:name=".RealtimeActivity"
+        android:exported="false" />
+
+        <activity
+            android:name=".SahayaBirak"
+            android:exported="false" />
+        <activity
+            android:name=".Scanner"
+            android:exported="false" />
+        <activity
+            android:name=".AppStartActivity"
+            android:exported="false" />
+        <activity
+            android:name=".RegisterActivity"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true" >
+
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

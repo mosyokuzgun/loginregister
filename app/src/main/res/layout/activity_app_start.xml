@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/dene"
+    android:orientation="vertical"
+    tools:context=".AppStartActivity">
+
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="87dp"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="10dp"
+        android:text="çıkış yap"
+        android:textColor="#fff" />
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="150dp"
+        android:layout_height="64dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="500dp"
+        android:text="Batarya Ekle"
+        android:textAlignment="center"
+        android:textColor="#fff"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.428"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="335dp" />
+
+
+    <Button
+        android:id="@+id/TamirTarama"
+        android:layout_width="150dp"
+        android:layout_height="64dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="300dp"
+        android:text="Tamir Tarama"
+        android:textAlignment="center"
+        android:textColor="#fff"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.428"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="335dp" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="150dp"
+        android:layout_height="64dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="10dp"
+        android:layout_marginBottom="500dp"
+        android:text="Araç Al"
+        android:textColor="#fff"
+        android:textColorLink="#66121010" />
+
+    <Button
+        android:id="@+id/ArizaKayit"
+        android:layout_width="150dp"
+        android:layout_height="64dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="10dp"
+        android:layout_marginBottom="240dp"
+        android:text="Arıza Kayıt"
+        android:textColor="#fff"
+        android:textColorLink="#66121010" />
+
+
+
+    <Button
+        android:id="@+id/aracayukle"
+        android:layout_width="150dp"
+        android:layout_height="64dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="10dp"
+        android:layout_marginBottom="180dp"
+        android:text="Araca Yükle"
+        android:textColor="#fff"
+        android:textColorLink="#66121010" />
+
+    <Button
+        android:id="@+id/batarya"
+        android:layout_width="150dp"
+        android:layout_height="64dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="200dp"
+        android:text="kaydedilen bataryalar"
+        android:textColor="#fff" />
+
+    <Button
+        android:id="@+id/birak"
+        android:layout_width="150dp"
+        android:layout_height="64dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="430dp"
+        android:text="Batarya bırak"
+        android:textColor="#fff" />
+
+    <Button
+        android:id="@+id/DepoyaCekme"
+        android:layout_width="150dp"
+        android:layout_height="64dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="10dp"
+        android:layout_marginBottom="430dp"
+        android:text="@string/depo"
+        android:textColor="#fff"
+        android:textColorLink="#66121010" />
+    <Button
+        android:id="@+id/SahayaBirak"
+        android:layout_width="150dp"
+        android:layout_height="64dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="10dp"
+        android:layout_marginBottom="360dp"
+        android:text="Sahaya Bırak"
+        android:textColor="#fff"
+        android:textColorLink="#66121010" />
+
+
+
+</RelativeLayout>

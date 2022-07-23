@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/dene"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <com.google.android.material.textfield.TextInputEditText
+    android:id="@+id/email"
+    android:layout_width="350dp"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:layout_marginTop="100dp"
+    android:fontFamily="@font/gotham_medium"
+    android:hint="@string/user"
+    android:minHeight="48dp"
+    android:padding="5dp"
+    android:textColor="#000"
+    app:met_floatingLabel="normal" />
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/password"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:hint="@string/pass"
+
+        android:minHeight="48dp"
+        android:fontFamily="@font/gotham_medium"
+        android:padding="5dp"
+        android:textColor="@color/colorPrimaryDark"
+        app:met_floatingLabel="normal" />
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/rem"
+        android:id="@+id/checkbox"
+        android:fontFamily="@font/gotham_medium"
+        android:textColor="@color/colorPrimaryDark"
+        android:buttonTint="@color/colorPrimaryDark"
+        android:layout_marginStart="28dp"
+        android:layout_marginTop="10dp" />
+
+    <Button
+        android:id="@+id/login"
+        android:layout_width="150dp"
+        android:layout_height="38dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"
+        android:background="@color/colorPrimaryDark"
+        android:fontFamily="@font/gotham_bold"
+        android:text="@string/login"
+        android:textAllCaps="false"
+        android:textColor="@android:color/white"
+        android:textSize="18sp" />
+
+    <Button
+        android:layout_width="0px"
+        android:layout_height="0px"
+        android:text="@string/kayit"
+        android:textAllCaps="false"
+        android:id="@+id/register"
+        android:background="@color/colorPrimaryDark"
+        android:textColor="@android:color/white"
+        android:layout_marginTop="500dp"/>
+
+
+</LinearLayout>
